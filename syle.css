@@ -1,0 +1,401 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color: #ffc017;
+    width:100%;
+    height:500px;
+}
+
+nav{
+    border-bottom:2px solid black;
+}
+
+.top{
+    display:flex;
+    justify-content:space-between;
+}
+
+.medium{
+    height:90px;
+    width:300px;
+    margin: 20px 150px;
+    font-size:larger;
+}
+
+.botton{
+    display:flex;
+    border:1px solid purple;
+    height:90px;
+    width: 300px;
+    margin:20px;
+}
+
+.menu{
+    margin: 30px;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+}
+
+ul li{
+    margin:0 10px;
+    font-size:medium;
+}
+
+nav ul li a:first-child{
+    margin-left:0;
+}
+
+botton a{
+    margin-right:0;
+}
+
+.start{
+    background-color: black;
+    color:white;
+    border-radius:15px;
+    height:30px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+.started{
+    display: flex;
+    align-items: center;
+}
+.curios{
+    margin-left: 100px;
+}
+
+h1{
+    font-size: 100px;
+    font-style:italic;
+}
+
+h3{
+    font-size: 30px;
+    margin: 25px 0;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 200px;
+    margin: 45px 0;
+}
+
+#article{
+    padding: 35px 0;
+}
+
+.boxes{
+    padding: 15px 0;
+}
+
+.article{
+    display:flex;
+}
+
+.title{
+    font-size:larger;
+    font-weight:bold;
+}
+
+.text{
+    font-weight: normal;
+    font-size: medium;
+    color:gray;
+}
+
+.bottomarticle{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 10px 0;
+}
+
+
+.ends{
+    font-weight: normal;
+    font-size: small;
+    color:gray;
+}
+
+.bottone{
+    font-weight: normal;
+    font-size: small;
+    border-radius:10px;
+    border:1px solid gray;
+    width: 50px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.icone{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    align-items: center;
+}
+
+aside{
+    align-items: center;
+    left: 1200px;
+    justify-content: center;
+    height:fit-content;
+    top: 350px;
+    position: fixed;
+}
+
+.asideicone{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+ion-icon{
+    font-size: larger;
+}
+
+.Membership{
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align:center;
+}
+
+.logotwitter{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:50px 0;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.twitter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+}
+
+#connect{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logos{
+    width: 40px;
+  }
+
+  #maybe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+footer{
+    position:relative;
+    left: 500px;
+    top: -700px;
+}
+
+#recommended{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.recommended{
+    font-weight: bold;
+    font-size: large;
+}
+
+  #topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    padding:20px 0;
+  }
+
+  .second{
+    width:200px;
+  }
+
+  #follows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .follows{
+    font-weight: bold;
+    font-size: large;
+  }
+
+  #user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+  }
+
+  .users{
+    margin: 0 10px;
+  }
+
+  .people{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+  }
+
+  .person{
+    display:flex;
+    width: 300px;
+  }
+
+  .account{
+    height: 80px;
+  }
+
+  .name{
+    font-weight: bold;
+    font-size:large;
+  }
+
+  .descrizione{
+    color: gray;
+    font-size: small;
+    padding: 10px 0;
+  }
+
+  .follow{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    top: -40px;
+  }
+
+  .saved{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+
+  .recently{
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .article2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .img-title{
+    display: flex;
+  }
+
+  .immaginer{
+    height: 40px;
+  }
+
+  .headart{
+    font-weight: bold;
+  }
+
+  .titlea{
+    font-size: large;
+    font-weight: bold;
+    right: -20px;
+    position: relative;
+  }
+
+  .footera{
+    display: flex;
+  }
+
+  .subtitlea{
+    font-size: small;
+    color: gray;
+    right: -20px;
+    position: relative;
+  }
+
+  .iconaa{
+    margin: 0 auto;
+  }
+
+  .second{
+    padding: 20px 0;
+    left: -60px;
+    position: relative;
+  }
+
+  .see{
+    color: gray;
+    padding: 40px 0;
+    position: relative;
+    right: 100px;
+  }
+
+  .footerend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px 0;
+  }
+
+  .lista{
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+  }
+
+  a{
+    text-decoration: none;
+  }
